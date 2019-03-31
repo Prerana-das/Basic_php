@@ -1,0 +1,86 @@
+*{
+	padding:0;
+	margin:0;
+}
+a,a:hover {
+  text-decoration:none;
+  font-weight: 400;
+}
+
+html,
+body {
+  color:#2d385e;
+  line-height:26px;
+  font-weight: 400;
+  font-size:15px;
+ font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: 600;
+   color: #2d385e;
+}
+ul {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+
+
+.sign-up-area{
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	height:100vh;
+	
+}
+.form-area{
+	position:relative;
+	height:100vh;
+}
+
+.form {
+	background-color: #f2f2f2;
+	padding: 30px;
+	top: 50%;
+	height:auto;
+	position: absolute;
+	transform: translateY(-50%);
+}
+.form h4 {
+	color:#2d385e;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.form span {
+	color: #2d385e;
+	margin: 10px 0px 20px 0px;
+	display: block;
+}
+.form span a {
+	margin-left: 15px;
+}
+.form input[type="text"],.form input[type="password"], .form input[type="email"] {
+	padding: 10px;
+	border: 1px solid #B0B0B0;
+}
+.form button[type="submit"]{
+	padding:7px 25px;
+}
+.signup a{
+	margin:15px 0px 0px 0px;
+	display:block;
+}
+.form span a:hover,.signup a:hover{
+	text-decoration:underline;
+}
